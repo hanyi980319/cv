@@ -8,7 +8,6 @@ export default {
     phoneNumber: '15679112682',
     email: '2387870957@qq.com',
     picture: '/hanyi.jpg',
-    github: 'https://github.com/magician-hy',
   },
   skills: {
     icons: [
@@ -29,12 +28,13 @@ export default {
       '/etc.svg',
     ],
     descriptions: [
-      '熟悉 JavaScript 常用语法，日常开发使用 TypeScript 提高代码可靠性和可维护性',
-      '熟悉 React 技术栈和相关生态，包含路由、状态管理库和各类工具库',
-      '熟悉主流组件库，例如 Ant Design、Ant Design Mobile 使用及二次封装',
+      '能够准确还原设计稿，处理响应式布局',
+      '熟悉 ES6+ 常用语法，日常开发使用 TypeScript 提高代码可靠性和可维护性',
+      '熟悉 React 技术栈和相关生态，包含 React Router、Redux 以及各类工具库的使用',
+      '熟悉主流组件库和图表库使用及二次封装，例如 Ant Design、Ant Design Mobile、ECharts 等',
       '了解网络，例如 fetch 和 Axios 使用及二次封装',
-      '了解工程化，例如 Vite 和 Webpack 使用及配置',
-      '了解 Node.js ，例如 Express 使用及配置',
+      '了解工程化，例如 Vite 和 Webpack 使用及配置，具备项目构建与 Git 工作流经验',
+      '熟悉 PC、H5、小程序开发，有处理兼容性问题的经验',
       '具备代码质量意识，采用规范、重构、Code Review 等方式进行优化',
       '具备良好英语水平，拥有六级证书，能够查阅官方文档，并在开发中规范命名',
     ],
