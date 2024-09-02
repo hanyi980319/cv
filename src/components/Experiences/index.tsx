@@ -50,7 +50,7 @@ export default function Experiences(props: Props) {
                     </div>
                     <div>{experience.time}</div>
                   </div>
-                  <div className="font-bold mb-8">{experience.major}</div>
+                  {experience.major !== '' && <div className="font-bold mb-8">{experience.major}</div>}
                   <ul>
                     {experience.descriptions.map((description, index) => (
                       <li key={index}>{description}</li>

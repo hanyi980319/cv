@@ -9,11 +9,17 @@ export default function Projects(props: Props) {
   const { projects } = props;
 
   return (
-    <div className="projects page2">
-      <h2>项目经验</h2>
+    <div className="projects">
+      <h2 className="pt-12">项目经验</h2>
       {projects.map((project, index) => (
         // 根据排版决定是否添加 page2 类名
-        <div key={index} className={`project ${index != 0 && index % 2 === 0 ? 'page2' : ''}`}>
+        <div
+          key={index}
+          className={`project ${index !== 0 && index % 2 === 0 ? 'page2' : ''}`}
+          style={{
+            marginBottom: index === projects.length - 1 ? '0px' : '18px',
+          }}
+        >
           <div className="icon-wrapper">
             <img src={project.icon} />
             <div className="fs-17 font-bold">{project.name}</div>
