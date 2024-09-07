@@ -9,7 +9,7 @@ export default function Projects(props: Props) {
   const { projects } = props;
 
   return (
-    <div className="projects">
+    <div className="projects page2">
       <h2 className="pt-12">项目经验</h2>
       {projects.map((project, index) => (
         // 根据排版决定是否添加 page2 类名
