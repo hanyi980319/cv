@@ -43,7 +43,7 @@ export default {
     {
       type: 'company',
       icon: '/fliggy.svg',
-      company: '易宝软件科技有限公司（驻场阿里巴巴-飞猪旅行）',
+      company: '易宝软件科技有限公司（阿里巴巴-飞猪旅行）',
       position: '前端开发工程师',
       time: '2024 年 05 月 - 2024 年 09 月',
       descriptions: [
@@ -53,7 +53,7 @@ export default {
     {
       type: 'company',
       icon: '/eleme.svg',
-      company: '法本信息技术股份有限公司（驻场阿里巴巴-饿了么）',
+      company: '法本信息技术股份有限公司（阿里巴巴-饿了么）',
       position: '前端开发工程师',
       time: '2023 年 08 月 - 2024 年 03 月',
       descriptions: [
@@ -238,7 +238,7 @@ export default {
 //     {
 //       type: 'company',
 //       icon: '/fliggy.svg',
-//       company: '易宝软件科技有限公司（驻场阿里巴巴-飞猪旅行）',
+//       company: '易宝软件科技有限公司（阿里巴巴-飞猪旅行）',
 //       position: '前端开发工程师',
 //       time: '2024 年 05 月 - 2024 年 09 月',
 //       descriptions: [
@@ -249,7 +249,7 @@ export default {
 //     {
 //       type: 'company',
 //       icon: '/jiyue.jpg',
-//       company: '软通动力信息技术股份有限公司（驻场极越汽车）',
+//       company: '软通动力信息技术股份有限公司（极越汽车）',
 //       position: '前端开发工程师',
 //       time: '2023 年 04 月 - 2024 年 03 月',
 //       descriptions: [
