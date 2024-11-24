@@ -10,14 +10,14 @@ export default function Projects(props: Props) {
 
   return (
     <div className="projects page2">
-      <h2 className="pt-12">项目经验</h2>
+      <div className="block-title">项目经验</div>
       {projects.map((project, index) => (
         // 根据排版决定是否添加 page2 类名
         <div
           key={index}
           className={`project ${index !== 0 && index % 2 === 0 ? 'page2' : ''}`}
           style={{
-            marginBottom: index === projects.length - 1 ? '0px' : '18px',
+            marginBottom: index === projects.length - 1 ? '0px' : '16px',
           }}
         >
           <div className="icon-wrapper">

@@ -10,7 +10,7 @@ export default function Skills(props: Props) {
 
   return (
     <div className="skill">
-      <h2>掌握技能</h2>
+      <div className="block-title">掌握技能</div>
       {icons.length > 0 && (
         <div className="skill-icons">
           {icons.map((icon, index) => (

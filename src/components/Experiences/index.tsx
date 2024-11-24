@@ -12,7 +12,7 @@ export default function Experiences(props: Props) {
     <div>
       {experiences.some((experience) => experience.type === 'company') && (
         <div>
-          <h2>工作经历</h2>
+          <div className="block-title">工作经历</div>
           {experiences.map((experience, index) => {
             if (experience.type === 'company') {
               return (
@@ -38,7 +38,7 @@ export default function Experiences(props: Props) {
       )}
       {experiences.some((experience) => experience.type === 'education') && (
         <div>
-          <h2>教育经历</h2>
+          <div className="block-title">教育经历</div>
           {experiences.map((experience, index) => {
             if (experience.type === 'education') {
               return (
