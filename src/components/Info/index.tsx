@@ -16,7 +16,7 @@ export default function Info(props: Props) {
     email,
     picture,
     github,
-    blog,
+    website,
   } = props.info;
 
   return (
@@ -56,11 +56,11 @@ export default function Info(props: Props) {
             </div>
           </div>
         )}
-        {blog && (
+        {website && (
           <div className="social-link">
             <div className="icon-wrapper">
-              <img src="/zeabur.svg" alt="GitHub" />
-              <a href={`${blog}`}>个人网站</a>：{blog?.replace('https://', '')}
+              <img src="/perplexity.png" alt="GitHub" />
+              <a href={`${website}`}>个人网站</a>：{website?.replace('https://', '')}
             </div>
           </div>
         )}

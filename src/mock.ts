@@ -8,18 +8,23 @@ export default {
     phoneNumber: '15679112682',
     email: '2387870957@qq.com',
     picture: '/hanyi.jpg',
+    website: 'https://github.com/hanyi-code',
   },
   skills: {
     icons: [
       '/javascript.svg',
       '/typescript.svg',
       '/react.svg',
+      '/antd.svg',
       '/redux.svg',
       '/react-router.svg',
-      '/antd.svg',
       '/vite.svg',
       '/axios.svg',
       '/nodejs.svg',
+      '/nextjs.png',
+      '/swift.png',
+      '/swiftui.png',
+      '/swiftdata.png',
       '/etc.svg',
     ],
     descriptions: [
@@ -93,6 +98,7 @@ export default {
       ],
       details: [
         '✨ 负责应急取数、事件反馈、排查工具、航司规则等页面或功能模块的开发与调整',
+        '📦 基于 React-Diff-Viewer 和 Drawer 封装修改历史记录的 JSON diff 组件，用于展示和比较不同版本的配置信息，便于追踪修改历史',
         '📦 基于 useRequest 封装获取表格数据并联动表单的自定义 hook，支持数据格式化转换、抹平接口返回值结构差异、状态管理等功能特性',
         '⚙️ 重构 Layout 的 Header 模块，增加国内国际、预发线上的不同组合下的环境切换功能，同时兼容开发运营人员已有的历史记录',
         '⚡️ 优化出发到达城市、机场这类包含分隔符的标签形式 Select 组件，增加扩展菜单控制 OD 输入，解决运营人员在手动输入大量选项时存在的用户体验问题',
