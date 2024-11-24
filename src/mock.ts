@@ -23,13 +23,14 @@ export default {
       '/etc.svg',
     ],
     descriptions: [
-      '熟悉 PC、H5 和小程序开发，能够准确还原设计稿，有处理响应式布局和兼容性问题的经验',
+      '熟悉 PC、H5 和 IOS 原生开发，能够准确还原设计稿，有处理响应式布局和兼容性问题的经验',
       '熟悉 ES6+ 常用语法，日常开发使用 TypeScript 提高代码可靠性和可维护性',
-      '熟悉 React 技术栈和相关生态，包含 Ant Design、Redux 等各类组件库、工具库',
+      '熟悉 React 技术栈和相关生态，包含 Ant Design、Zustand 等各类组件库、工具库',
       '了解 Next.js 服务端渲染框架，能够使用其构建 SSR 应用，提升首屏加载速度和 SEO 效果',
       '了解 Node.js 开发，能够使用 Express、Koa 等框架搭建后端服务，了解 RESTful API 设计',
+      '了解 Swift + SwiftUI + SwiftData 技术栈，具备上架 App Store 经验',
       '具备网络请求的优化与封装能力，熟悉 fetch 和 Axios 的使用，了解 HTTP 网络协议',
-      '具备项目构建与 Git 工作流经验，了解前端工程化，例如 Vite 和 Webpack 配置 plugin 和 loader',
+      '具备项目构建与 Git 工作流经验，了解前端工程化',
       '具备代码质量意识，采用规范、重构、Lint、Code Review 等方式进行约束和优化',
       '具备良好英语水平，拥有六级证书，能够查阅官方文档，并在开发中规范命名',
       '熟悉 Copilot、Cursor、V0 等 AI 工具使用，提高开发效率',
@@ -39,7 +40,7 @@ export default {
     {
       type: 'company',
       icon: '/fliggy.svg',
-      company: '易宝软件科技有限公司（阿里巴巴-飞猪旅行）',
+      company: '易宝软件科技有限公司（阿里巴巴-飞猪）',
       position: '前端开发工程师',
       time: '2024 年 05 月 - 2024 年 12 月',
       descriptions: [
@@ -84,7 +85,7 @@ export default {
       icon: '/react.svg',
       name: '飞猪机票出行中后台',
       description:
-        '包含出行服务各项配置能力，致力于优化机票经营流程、提升运营研发服务体验，为日常经营活动提供一站式解决方案',
+        '本项目包含出行服务各项配置能力，致力于优化机票经营流程、提升运营研发服务体验',
       stack: [
         'React',
         'Umi',
